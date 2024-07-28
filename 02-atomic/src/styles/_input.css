@@ -1,0 +1,46 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+:root {
+  --gap: 1.25rem;
+  --inline-size: 8.1875rem;
+  --line-height: 150%;
+
+  font-family: "Pretendard Variable", sans-serif;
+}
+
+.join-input-list {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: var(--gap);
+  inline-size: 31.25rem;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.join-input-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+  label {
+    inline-size: var(--inline-size);
+    font-weight: 600;
+    line-height: var(--line-height);
+  }
+
+  input {
+    inline-size: 18.3125rem;
+    block-size: 2.75rem;
+    padding: 0 1.25rem;
+    border: 0.0625rem solid #a6a6a6;
+    border-radius: 0.25rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: var(--line-height);
+    text-align: center;
+  }
+}
+
