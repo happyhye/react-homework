@@ -8,6 +8,8 @@
 
 ## 결과물
 
+![prop-types](https://github.com/user-attachments/assets/71e7e817-39af-4e1f-98c2-7e5730e7756b)
+
 <br />
 
 ## 코드
