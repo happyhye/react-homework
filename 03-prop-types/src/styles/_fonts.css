@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'SUIT';
+  src: url(/fonts/SUITVariable.woff2);
+}
+
+*,
+*::after,
+*::before {
+  font-family: 'SUIT', sans-serif;
+}
